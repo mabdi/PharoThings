@@ -16,11 +16,11 @@ on:
       mode:
         description: 'mode (dspot, dspotFast, dspotFastRank)'
         required: true
-        default: 'dspotFastRank'
+        default: 'fseRank'
       parallel_jobs:         
         description: 'Max number of all parallel jobs (0 use Input testClasses length)'
         required: true
-        default: '10'
+        default: '8'
       maxInputs:
         description: 'Number of test variant per original test'
         required: true
